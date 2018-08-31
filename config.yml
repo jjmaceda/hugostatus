@@ -78,12 +78,20 @@ params:
   systems:
     -
       name: Central
+      description: Panel de control y monitoreo.
     -
-      name: API
-      description: The guts of the application.
+      name: Payment API
+      description: Sistema de pago por tarjeta de credito
     -
-      name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
+      name: Driver App
+      description: Aplicación Android para motorista
+    -
+      name: Partner App
+      description: Aplicación Android para el comercio afiliado
+    -
+      name: Client App Android
+    -
+      name: Client App iOS
 
   # What header design should we use?
   #
