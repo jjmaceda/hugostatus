@@ -77,7 +77,7 @@ params:
   # https://github.com/mistermantas/cstate/wiki/Customization
   systems:
     -
-      name: Gateway
+      name: Central
     -
       name: API
       description: The guts of the application.
